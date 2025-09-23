@@ -1,4 +1,5 @@
 import Hero from "./components/Hero.jsx";
+import FeatureCard from "./components/FeatureCard.jsx";
 
 
 export default function HomePage() {
@@ -16,6 +17,28 @@ export default function HomePage() {
           <p className="mt-3 text-gray-600">
             This is the section your CTA jumps to. We’ll fill it with real content later.
           </p>
+        </div>
+      </section>
+      <section className="p-8 bg-white">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-2xl md:text-3xl font-bold text-center">Benefits</h2>
+          <div className="mt-6 grid gap-6 sm:grid-cols-2 md:grid-cols-3">
+            <FeatureCard
+              icon="⚡"
+              title="More Energy"
+              copy="Kickstart your day feeling lighter and more focused."
+            />
+            <FeatureCard
+              icon="🧠"
+              title="Mental Clarity"
+              copy="Fewer crashes, clearer thinking, better decisions."
+            />
+            <FeatureCard
+              icon="💪"
+              title="Confidence"
+              copy="Feel in control of your routine and results."
+            />
+          </div>
         </div>
       </section>
 
