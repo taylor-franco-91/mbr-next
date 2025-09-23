@@ -6,9 +6,9 @@ export default function HomePage() {
   return (
     <main>
       <Hero
-        title="Mind Body Reset"
-        subtitle="Feel energetic, focused, and confident with a clean, modern reset."
-        ctaLabel="Get Started"
+        title="New Beginnings: Your 7-Day Mind-Body Reset"
+        subtitle="For A Radient Life"
+        ctaLabel="✨ Start Your Reset Today"
         ctaHref="/#start"
       />
       <section id="start" className="min-h-[40vh] grid place-items-center p-8 bg-gray-50">
