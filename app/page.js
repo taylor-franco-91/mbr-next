@@ -9,16 +9,22 @@ export default function HomePage() {
         title="New Beginnings: Your 7-Day Mind-Body Reset"
         subtitle="For A Radient Life"
         ctaLabel="✨ Start Your Reset Today"
-        ctaHref="/#start"
+        ctaHref="/#epiphany"
       />
-      <section id="start" className="min-h-[40vh] grid place-items-center p-8 bg-gray-50">
-        <div className="max-w-2xl text-center">
-          <h2 className="text-2xl md:text-3xl font-bold">Start Your Reset</h2>
-          <p className="mt-3 text-gray-600">
-            This is the section your CTA jumps to. We’ll fill it with real content later.
+      <section
+        id="epiphany"
+        className="py-24 px-6 bg-gradient-to-br from-white to-emerald-50 text-center shadow-inner"
+      >
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-5xl md:text-6xl font-extrabold text-emerald-700 mb-6">
+            How I Discovered the Power of Fasting
+          </h2>
+          <p className="text-xl text-gray-800 leading-relaxed max-w-3xl mx-auto">
+            Years ago, I felt stuck. Tired, foggy, bloated, and frustrated. I was trying every diet, LITERALLY EVERY ONE! I even went vegan for 6–7 years all to end up gaining weight! I tried every fitness plan, and NOTHING was working or created real change — until I found fasting. That one decision changed everything. I discovered that fasting wasn't about starving — it was about reconnecting with the natural intelligence of my body. I felt clarity. Strength. Peace. And I watched my body transform faster than ever before.
           </p>
         </div>
       </section>
+
       <section className="p-8 bg-white">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold text-center">Benefits</h2>
