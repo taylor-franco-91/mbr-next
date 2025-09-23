@@ -9,10 +9,15 @@ export default function Hero({ title, subtitle, ctaLabel, ctaHref }) {
     }
 
     return (
-        <section className="min-h-[100vh] grid place-items-center text-center p-8 bg-gradient-to-br from-lime-100 to-emerald-200">
+        <section
+            id="top"
+            className="min-h-[100vh] grid place-items-center text-center p-8 bg-gradient-to-br from-lime-100 to-emerald-200"
+        >
+
             <div>
-                <h1 className="text-4xl md:text-5xl font-extrabold">{title}</h1>
-                <p className="mt-3 text-gray-600">{subtitle}</p>
+                <h1 className="text-5xl md:text-6xl font-extrabold text-emerald-900">{title}</h1>
+                <p className="mt-5 text-emerald-800">{subtitle}</p>
+
 
                 {ctaLabel && ctaHref && (
                     <div className="mt-6">
