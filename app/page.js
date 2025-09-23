@@ -13,13 +13,23 @@ export default function HomePage() {
       />
       <section
         id="epiphany"
-        className="py-24 px-6 bg-gradient-to-br from-white to-emerald-50 text-center shadow-inner"
+        className="relative overflow-hidden py-24 px-6 text-center shadow-inner
+             bg-gradient-to-br from-white to-emerald-50"
       >
-        <div className="max-w-4xl mx-auto">
+        {/* background image layer */}
+        <div
+          aria-hidden
+          className="absolute inset-0 z-0
+               bg-[url('/epiphany-bg.png')] bg-no-repeat bg-contain bg-center
+               pointer-events-none opacity-80 mix-blend-multiply"
+        />
+
+        {/* content layer */}
+        <div className="relative z-10 max-w-4xl mx-auto">
           <h2 className="text-5xl md:text-6xl font-extrabold text-emerald-700 mb-6">
             How I Discovered the Power of Fasting
           </h2>
-          <p className="text-[1.15rem] md:text-[1.2rem] text-gray-800 leading-relaxed max-w-3xl mx-auto">
+          <p className="text-[1.15rem] md:text-[1.2rem] text-gray-800 leading-relaxed max-w-3xl mx-auto text-balance">
             Years ago, I felt stuck. Tired, foggy, bloated, and frustrated. I was trying every diet, LITERALLY EVERY ONE! I even went vegan for 6–7 years all to end up gaining weight! I tried every fitness plan, and NOTHING was working or created real change — until I found fasting. That one decision changed everything. I discovered that fasting wasn't about starving — it was about reconnecting with the natural intelligence of my body. I felt clarity. Strength. Peace. And I watched my body transform faster than ever before.
           </p>
         </div>
