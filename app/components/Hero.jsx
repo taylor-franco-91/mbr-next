@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Hero({ title, subtitle, ctaLabel, ctaHref }) {
     return (
         <section className="min-h-[50vh] grid place-items-center text-center p-8">
@@ -7,12 +9,12 @@ export default function Hero({ title, subtitle, ctaLabel, ctaHref }) {
 
                 {ctaLabel && ctaHref && (
                     <div className="mt-6">
-                        <a
+                        <Link
                             href={ctaHref}
                             className="inline-flex items-center justify-center rounded-xl px-4 py-2 text-sm font-semibold bg-emerald-600 text-white hover:opacity-90 active:scale-[.98]"
                         >
                             {ctaLabel}
-                        </a>
+                        </Link>
                     </div>
                 )}
             </div>
