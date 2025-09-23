@@ -19,7 +19,7 @@ export default function HomePage() {
           <h2 className="text-5xl md:text-6xl font-extrabold text-emerald-700 mb-6">
             How I Discovered the Power of Fasting
           </h2>
-          <p className="text-xl text-gray-800 leading-relaxed max-w-3xl mx-auto">
+          <p className="text-[1.15rem] md:text-[1.2rem] text-gray-800 leading-relaxed max-w-3xl mx-auto">
             Years ago, I felt stuck. Tired, foggy, bloated, and frustrated. I was trying every diet, LITERALLY EVERY ONE! I even went vegan for 6–7 years all to end up gaining weight! I tried every fitness plan, and NOTHING was working or created real change — until I found fasting. That one decision changed everything. I discovered that fasting wasn't about starving — it was about reconnecting with the natural intelligence of my body. I felt clarity. Strength. Peace. And I watched my body transform faster than ever before.
           </p>
         </div>
