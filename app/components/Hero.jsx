@@ -34,7 +34,7 @@ export default function Hero({
                         <Link
                             href={ctaHref}
                             onClick={handleUnlock}
-                            className="inline-flex items-center justify-center rounded-xl px-8 py-4 text-sm font-semibold bg-orange-500 hover:bg-orange-600 text-white hover:opacity-90 active:scale-[.98]"
+                            className="inline-flex items-center justify-center rounded-xl px-8 py-4 text-base font-semibold bg-orange-500 hover:bg-orange-600 text-white hover:opacity-90 active:scale-[.98]"
                         >
                             {ctaLabel}
                         </Link>
