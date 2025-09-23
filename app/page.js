@@ -47,7 +47,7 @@ export default function HomePage() {
 
           <div className="mt-10 grid gap-6 md:grid-cols-3">
             {/* Card 1 */}
-            <article className="rounded-2xl border bg-white/80 backdrop-blur p-6 shadow-sm text-left">
+            <article className="rounded-2xl border bg-white/80 backdrop-blur p-6 shadow-sm text-left  transition-transform duration-200 hover:-translate-y-0.5 hover:shadow-md">
               <div className="text-3xl">🌿</div>
               <h3 className="mt-3 text-xl font-semibold text-emerald-700">Lived Experience</h3>
               <p className="mt-2 text-gray-700 leading-relaxed text-[1.05rem]">
@@ -59,7 +59,8 @@ export default function HomePage() {
             </article>
 
             {/* Card 2 */}
-            <article className="rounded-2xl border bg-white/80 backdrop-blur p-6 shadow-sm text-left">
+            <article className="rounded-2xl border bg-white/80 backdrop-blur p-6 shadow-sm text-left transition hover:-translate-y-0.5 hover:shadow-md
+">
               <div className="text-3xl">⏳</div>
               <h3 className="mt-3 text-xl font-semibold text-emerald-700">Why Fasting</h3>
               <p className="mt-2 text-gray-700 leading-relaxed text-[1.05rem]">
@@ -72,7 +73,8 @@ export default function HomePage() {
             </article>
 
             {/* Card 3 */}
-            <article className="rounded-2xl border bg-white/80 backdrop-blur p-6 shadow-sm text-left">
+            <article className="rounded-2xl border bg-white/80 backdrop-blur p-6 shadow-sm text-left transition hover:-translate-y-0.5 hover:shadow-md
+">
               <div className="text-3xl">💪</div>
               <h3 className="mt-3 text-xl font-semibold text-emerald-700">Worth the Effort</h3>
               <p className="mt-2 text-gray-700 leading-relaxed text-[1.05rem]">
