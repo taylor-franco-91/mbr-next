@@ -254,7 +254,7 @@ export default function HomePage() {
                 <div className="relative p-[2px] rounded-[24px] bg-gradient-to-br from-emerald-400/40 via-lime-400/40 to-emerald-400/40">
                   <div className="rounded-[22px] bg-white/80 backdrop-blur-sm p-3">
                     <img
-                      src="https://i.imgur.com/IKV1MGm.png"
+                      src="/ebook-cover.png"
                       alt="7-Day Mind-Body Reset eBook cover"
                       className="w-full h-auto rounded-2xl shadow-xl ring-1 ring-emerald-200 transition-transform duration-300 group-hover:scale-[1.02]"
                     />
