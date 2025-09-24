@@ -311,75 +311,76 @@ export default function HomePage() {
           </div>
 
           {/* accordion grid */}
-          <div className="mt-10 grid gap-4 md:gap-6 md:grid-cols-2 text-left">
+          <div className="mt-10 grid items-start gap-4 md:gap-6 md:grid-cols-2 text-left">
+
             {/* 1 */}
-            <details className="group rounded-2xl border bg-white/80 backdrop-blur p-5 shadow-sm open:shadow-md transition">
+            <details className="group self-start rounded-2xl border bg-white/80 backdrop-blur p-5 shadow-sm open:shadow-md transition">
               <summary className="flex items-center justify-between cursor-pointer select-none">
                 <span className="font-semibold text-emerald-700">“I’m not sure I can go without food for 7 days…”</span>
                 <span className="ml-4 grid h-7 w-7 place-items-center rounded-full bg-emerald-100 text-emerald-700 transition-transform duration-200 group-open:rotate-45">+</span>
               </summary>
               <div className="mt-3 text-gray-700 leading-relaxed">
-                Totally normal fear — but this isn’t starvation. It’s structured, supported, and designed to help you thrive. You’ll get hydration, nutrients, and guidance each step of the way.
+                Totally normal fear, but this isn’t starvation. It’s structured, supported, and designed to help you thrive. You’ll get hydration, nutrients, and guidance each step of the way.
               </div>
             </details>
 
             {/* 2 */}
-            <details className="group rounded-2xl border bg-white/80 backdrop-blur p-5 shadow-sm open:shadow-md transition">
+            <details className="group self-start rounded-2xl border bg-white/80 backdrop-blur p-5 shadow-sm open:shadow-md transition">
               <summary className="flex items-center justify-between cursor-pointer select-none">
                 <span className="font-semibold text-emerald-700">“I’ve tried cleanses before, and they didn’t work.”</span>
                 <span className="ml-4 grid h-7 w-7 place-items-center rounded-full bg-emerald-100 text-emerald-700 transition-transform duration-200 group-open:rotate-45">+</span>
               </summary>
               <div className="mt-3 text-gray-700 leading-relaxed">
-                That’s because they weren’t built on real transformation. This reset is different — rooted in science, experience, and actual results (like mine).
+                That’s because they weren’t built on real transformation. This reset is different! Rooted in science, experience, and actual results (like mine).
               </div>
             </details>
 
             {/* 3 */}
-            <details className="group rounded-2xl border bg-white/80 backdrop-blur p-5 shadow-sm open:shadow-md transition">
+            <details className="group self-start rounded-2xl border bg-white/80 backdrop-blur p-5 shadow-sm open:shadow-md transition">
               <summary className="flex items-center justify-between cursor-pointer select-none">
                 <span className="font-semibold text-emerald-700">“Will I lose muscle?”</span>
                 <span className="ml-4 grid h-7 w-7 place-items-center rounded-full bg-emerald-100 text-emerald-700 transition-transform duration-200 group-open:rotate-45">+</span>
               </summary>
               <div className="mt-3 text-gray-700 leading-relaxed">
-                Nope. This 7-day cleanse supports your body, not breaks it down. You’ll become more efficient at burning fat while maintaining lean mass.
+                Nope. This 7-day cleanse is about protecting your body and preserving your health, not breaking it down. Your body will actually become more efficient at burning fat while maintaining lean mass.
               </div>
             </details>
 
             {/* 4 */}
-            <details className="group rounded-2xl border bg-white/80 backdrop-blur p-5 shadow-sm open:shadow-md transition">
+            <details className="group self-start rounded-2xl border bg-white/80 backdrop-blur p-5 shadow-sm open:shadow-md transition">
               <summary className="flex items-center justify-between cursor-pointer select-none">
                 <span className="font-semibold text-emerald-700">“Is fasting worth it?”</span>
                 <span className="ml-4 grid h-7 w-7 place-items-center rounded-full bg-emerald-100 text-emerald-700 transition-transform duration-200 group-open:rotate-45">+</span>
               </summary>
               <div className="mt-3 text-gray-700 leading-relaxed">
-                Absolutely. If you want long-term health and healing from within, fasting is a powerful tool — and this program shows you how to do it safely and effectively.
+                Absolutely! If you want to prolonge your health and heal from many illnesses and body pains from within, then fasting is a MUST. Like God said "WHEN you fast"
               </div>
             </details>
 
             {/* 5 */}
-            <details className="group rounded-2xl border bg-white/80 backdrop-blur p-5 shadow-sm open:shadow-md transition">
+            <details className="group self-start rounded-2xl border bg-white/80 backdrop-blur p-5 shadow-sm open:shadow-md transition">
               <summary className="flex items-center justify-between cursor-pointer select-none">
                 <span className="font-semibold text-emerald-700">“Will I have time for a 7-day reset?”</span>
                 <span className="ml-4 grid h-7 w-7 place-items-center rounded-full bg-emerald-100 text-emerald-700 transition-transform duration-200 group-open:rotate-45">+</span>
               </summary>
               <div className="mt-3 text-gray-700 leading-relaxed">
-                Yes! It’s designed for busy lives — short daily steps, flexibility, and support to keep you moving forward.
+                Yes! It’s designed for busy lives, short daily steps and flexibility to fit your schedule, with full support to keep you moving forward
               </div>
             </details>
 
             {/* 6 */}
-            <details className="group rounded-2xl border bg-white/80 backdrop-blur p-5 shadow-sm open:shadow-md transition">
+            <details className="group self-start rounded-2xl border bg-white/80 backdrop-blur p-5 shadow-sm open:shadow-md transition">
               <summary className="flex items-center justify-between cursor-pointer select-none">
                 <span className="font-semibold text-emerald-700">“Is fasting safe for me?”</span>
                 <span className="ml-4 grid h-7 w-7 place-items-center rounded-full bg-emerald-100 text-emerald-700 transition-transform duration-200 group-open:rotate-45">+</span>
               </summary>
               <div className="mt-3 text-gray-700 leading-relaxed">
-                When guided properly, yes. This program includes safety tips and is crafted with health in mind. If you have medical concerns, check with your doctor.
+                Yes, when guided properly. This program includes safety tips and is crafted with health in mind, it’s built for success.
               </div>
             </details>
 
             {/* 7 */}
-            <details className="group rounded-2xl border bg-white/80 backdrop-blur p-5 shadow-sm open:shadow-md transition">
+            <details className="group self-start rounded-2xl border bg-white/80 backdrop-blur p-5 shadow-sm open:shadow-md transition">
               <summary className="flex items-center justify-between cursor-pointer select-none">
                 <span className="font-semibold text-emerald-700">“Can I do this if I’m pregnant?”</span>
                 <span className="ml-4 grid h-7 w-7 place-items-center rounded-full bg-emerald-100 text-emerald-700 transition-transform duration-200 group-open:rotate-45">+</span>
