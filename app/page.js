@@ -278,14 +278,14 @@ export default function HomePage() {
 
               <ul className="mt-6 space-y-3 text-emerald-900">
                 <li className="flex gap-2"><span className="text-emerald-600">✓</span> Step-by-step daily guidance</li>
-                <li className="flex gap-2"><span className="text-emerald-600">✓</span> Simple, supportive rituals to reduce cravings and boost clarity</li>
+                <li className="flex gap-2"><span className="text-emerald-600">✓</span> Simple, supportive habits to reduce cravings and boost clarity</li>
                 <li className="flex gap-2"><span className="text-emerald-600">✓</span> Built to fit busy lives—short actions, real momentum</li>
               </ul>
 
               <div className="mt-8">
                 <a
                   href="#purchase"
-                  className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-semibold bg-emerald-600 hover:bg-emerald-700 text-white shadow-lg hover:shadow-xl transition-transform hover:scale-[1.02] active:scale-[.98]"
+                  className="inline-flex items-center justify-center rounded-xl px-6 py-4 text-base font-semibold bg-emerald-600 hover:bg-emerald-700 text-white shadow-lg hover:shadow-xl transition-transform hover:scale-[1.02] active:scale-[.98]"
                 >
                   ✨ Claim your reset now
                 </a>
