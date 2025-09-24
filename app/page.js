@@ -699,6 +699,7 @@ export default function HomePage() {
             {/* right: pricing + value stack */}
             <div className="relative">
               <div className="rounded-3xl border border-emerald-100 bg-white/90 backdrop-blur p-6 md:p-8 shadow">
+
                 {/* price band */}
                 <div className="flex items-end gap-3">
                   <div className="text-3xl font-extrabold text-emerald-700">
@@ -734,6 +735,12 @@ export default function HomePage() {
                 </div>
 
                 {/* CTA */}
+                {/* value headline (bridge to CTA) */}
+                <h3 className="mt-5 mb-2 text-base md:text-lg text-emerald-900 tracking-tight text-left">
+                  <span className="font-extrabold text-emerald-800">Your one-time ticket to a healthier you</span>
+                  <span className="font-normal"> — pass this wisdom down for generations!</span>
+                </h3>
+
                 <div className="mt-6">
                   <a
                     href="https://buy.stripe.com/test_dRm6oH2L3egh2Hf6hQgrS00"
@@ -749,7 +756,7 @@ export default function HomePage() {
                 {/* guarantee */}
                 <div className="mt-6 rounded-xl border border-emerald-200 bg-emerald-50/60 p-4">
                   <p className="text-sm text-emerald-900">
-                    <span className="font-semibold">30-Day Money-Back Guarantee.</span> If you don’t love it, email us and we’ll make it right.
+                    <span className="font-semibold">Get Ready For An Amazing Transformation!</span> 100% Healing Guarantee! Just Follow The Blueprint
                   </p>
                 </div>
 
