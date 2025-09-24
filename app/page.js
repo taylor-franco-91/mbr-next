@@ -20,19 +20,39 @@ export default function HomePage() {
         <div
           aria-hidden
           className="absolute inset-0 z-0
-               bg-[url('/epiphany-bg.png')] bg-no-repeat bg-contain bg-center
-               pointer-events-none opacity-80 mix-blend-multiply"
+             bg-[url('/epiphany-bg.png')] bg-no-repeat bg-contain bg-center
+             pointer-events-none opacity-80 mix-blend-multiply"
         />
 
-        {/* content layer */}
+        {/* background image layer */}
         <div className="relative z-10 max-w-4xl mx-auto">
-          <h2 className="text-5xl md:text-6xl font-extrabold text-emerald-700 mb-6">
+          {/* lead badge */}
+          <div className="inline-flex items-center gap-2 rounded-full bg-emerald-100/80 text-emerald-800 px-3 py-1 text-xs font-semibold tracking-wide">
+            <span className="h-2 w-2 rounded-full bg-emerald-500" />
+            My Story
+          </div>
+          <div className="mx-auto mt-2 h-1 w-24 rounded-full bg-gradient-to-r from-emerald-400/60 to-lime-400/60" />
+
+          <h2 className="mt-3 text-5xl md:text-6xl font-extrabold text-emerald-700">
             How I Discovered the Power of Fasting
           </h2>
-          <p className="text-[1.15rem] md:text-[1.2rem] text-gray-800 leading-relaxed max-w-3xl mx-auto text-balance">
+
+          <p className="mt-4 text-[1.15rem] md:text-[1.2rem] text-gray-800 leading-relaxed max-w-3xl mx-auto text-balance">
             Years ago, I felt stuck. Tired, foggy, bloated, and frustrated. I was trying every diet, LITERALLY EVERY ONE! I even went vegan for 6–7 years all to end up gaining weight! I tried every fitness plan, and NOTHING was working or created real change, until I found fasting. That one decision changed everything. I discovered that fasting wasn't about starving, it was about reconnecting with the natural intelligence of my body. I felt clarity. Strength. Peace. And I watched my body transform faster than ever before.
           </p>
+
+          {/* pull-quote card */}
+          <figure className="mt-8 mx-auto max-w-3xl">
+            <blockquote className="rounded-2xl border bg-white/80 backdrop-blur p-6 text-left shadow-sm">
+
+              <p className="text-lg md:text-xl leading-relaxed text-emerald-900">
+                “Fasting wasn’t about starving, it was about reconnecting with the natural intelligence of my body.”
+              </p>
+            </blockquote>
+            <figcaption className="mt-3 text-sm text-emerald-700/80">— My turning point</figcaption>
+          </figure>
         </div>
+
       </section>
 
       <section
