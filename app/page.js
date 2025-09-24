@@ -148,6 +148,83 @@ export default function HomePage() {
 
         </div>
       </section>
+      <section
+        id="diets"
+        className="relative py-24 px-6 text-center bg-slate-900 text-slate-100"
+      >
+        {/* soft vignette */}
+        <div aria-hidden className="pointer-events-none absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-900 to-emerald-950/30" />
+
+        <div className="relative z-10 mx-auto max-w-6xl">
+          {/* premium header */}
+          <div className="inline-flex items-center gap-2 rounded-full bg-emerald-200/10 text-emerald-300 px-3 py-1 text-xs font-semibold tracking-wide">
+            <span className="h-2 w-2 rounded-full bg-emerald-400" />
+            The Real Difference
+          </div>
+
+          <h2 className="mt-3 text-4xl md:text-5xl font-extrabold">
+            <span className="bg-gradient-to-r from-emerald-300 to-lime-300 bg-clip-text text-transparent">
+              Why Most Diets Don’t Work
+            </span>
+          </h2>
+          <div className="mx-auto mt-2 h-1 w-24 rounded-full bg-gradient-to-r from-emerald-400/60 to-lime-400/60" />
+
+          {/* gradient-framed comparison panel */}
+          <div className="mx-auto mt-10 max-w-5xl p-[2px] rounded-3xl bg-gradient-to-r from-emerald-400/30 via-lime-400/30 to-emerald-400/30">
+            <div className="rounded-3xl bg-slate-900/80 backdrop-blur-md p-6 md:p-10">
+              <div className="grid gap-8 md:grid-cols-2 text-left">
+                {/* Most Diets */}
+                <div>
+                  <h3 className="flex items-center gap-2 text-lg font-semibold text-rose-300">
+                    <span className="text-rose-400">✖</span> Most Diets
+                  </h3>
+                  <ul className="mt-3 space-y-3 text-slate-300">
+                    <li className="flex gap-2">
+                      <span className="text-rose-400">✖</span>
+                      Focus on restriction, not healing.
+                    </li>
+                    <li className="flex gap-2">
+                      <span className="text-rose-400">✖</span>
+                      Count calories instead of clearing toxins.
+                    </li>
+                    <li className="flex gap-2">
+                      <span className="text-rose-400">✖</span>
+                      Work against your body instead of with it.
+                    </li>
+                  </ul>
+                </div>
+
+                {/* Mind Body Reset */}
+                <div>
+                  <h3 className="flex items-center gap-2 text-lg font-semibold text-emerald-300">
+                    <span className="text-emerald-400">✓</span> Mind Body Reset
+                  </h3>
+                  <ul className="mt-3 space-y-3">
+                    <li className="flex gap-2">
+                      <span className="text-emerald-400">✓</span>
+                      Resets hormones and supports true healing.
+                    </li>
+                    <li className="flex gap-2">
+                      <span className="text-emerald-400">✓</span>
+                      Improves digestion and reduces inflammation.
+                    </li>
+                    <li className="flex gap-2">
+                      <span className="text-emerald-400">✓</span>
+                      Works with your body’s natural repair cycle.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* supporting line */}
+              <p className="mt-8 text-sm md:text-base text-slate-300/90 text-center">
+                That’s why this 7-day reset works: it taps into what your body already does —
+                cleanse, repair, and renew.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section className="p-8 bg-white">
         <div className="max-w-5xl mx-auto">
