@@ -301,7 +301,7 @@ export default function HomePage() {
           <div className="text-center">
             <div className="inline-flex items-center gap-2 rounded-full bg-emerald-100/80 text-emerald-800 px-3 py-1 text-xs font-semibold tracking-wide">
               <span className="h-2 w-2 rounded-full bg-emerald-500" />
-              Real talk
+              FAQ
             </div>
             <h2 className="mt-3 text-4xl md:text-5xl font-extrabold text-emerald-700">
               Still Not Sure? Let’s Clear That Up
