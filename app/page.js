@@ -426,48 +426,57 @@ export default function HomePage() {
             </p>
           </div>
 
-          {/* cards */}
-          <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
+          {/* equal-height cards */}
+          <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6 text-left items-stretch">
             {/* card 1 */}
-            <figure className="group relative">
-              {/* subtle gradient frame on hover */}
-              <div aria-hidden className="absolute -inset-[2px] rounded-2xl bg-gradient-to-br from-emerald-400/25 via-lime-400/25 to-emerald-400/25 opacity-0 group-hover:opacity-100 blur transition" />
-              <div className="relative rounded-2xl border bg-white/80 backdrop-blur p-6 shadow-sm transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:shadow-lg">
-                <div className="text-emerald-600 text-2xl">“</div>
-                <blockquote className="mt-2 text-gray-800 italic">
-                  Fasting is the key to living longer and healthier lives.
-                </blockquote>
-                <figcaption className="mt-4 text-sm font-semibold text-emerald-700">
-                  — Dr. Yoshinori Ohsumi, Nobel Prize Laureate
-                </figcaption>
+            <figure className="group relative h-full">
+              {/* subtle gradient frame */}
+              <div aria-hidden className="absolute -inset-[2px] rounded-2xl bg-gradient-to-br from-emerald-400/15 via-lime-400/15 to-emerald-400/15 opacity-0 group-hover:opacity-40 blur-sm transition" />
+              <div className="relative h-full rounded-2xl border border-emerald-100 bg-white/80 backdrop-blur p-6 shadow
+                        transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:shadow-md">
+                <div className="flex h-full flex-col">
+                  <div className="text-emerald-600 text-2xl">“</div>
+                  <blockquote className="mt-2 text-gray-800 italic">
+                    Fasting is the key to living longer and healthier lives.
+                  </blockquote>
+                  <figcaption className="mt-auto pt-4 text-sm font-semibold text-emerald-700">
+                    — Dr. Yoshinori Ohsumi, Nobel Prize Laureate
+                  </figcaption>
+                </div>
               </div>
             </figure>
 
             {/* card 2 */}
-            <figure className="group relative">
-              <div aria-hidden className="absolute -inset-[2px] rounded-2xl bg-gradient-to-br from-emerald-400/25 via-lime-400/25 to-emerald-400/25 opacity-0 group-hover:opacity-100 blur transition" />
-              <div className="relative rounded-2xl border bg-white/80 backdrop-blur p-6 shadow-sm transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:shadow-lg">
-                <div className="text-emerald-600 text-2xl">“</div>
-                <blockquote className="mt-2 text-gray-800 italic">
-                  And when you fast!
-                </blockquote>
-                <figcaption className="mt-4 text-sm font-semibold text-emerald-700">
-                  — Matthew 6
-                </figcaption>
+            <figure className="group relative h-full">
+              <div aria-hidden className="absolute -inset-[2px] rounded-2xl bg-gradient-to-br from-emerald-400/15 via-lime-400/15 to-emerald-400/15 opacity-0 group-hover:opacity-40 blur-sm transition" />
+              <div className="relative h-full rounded-2xl border border-emerald-100 bg-white/80 backdrop-blur p-6 shadow
+                        transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:shadow-md">
+                <div className="flex h-full flex-col">
+                  <div className="text-emerald-600 text-2xl">“</div>
+                  <blockquote className="mt-2 text-gray-800 italic">
+                    And when you fast!
+                  </blockquote>
+                  <figcaption className="mt-auto pt-4 text-sm font-semibold text-emerald-700">
+                    — Matthew 6
+                  </figcaption>
+                </div>
               </div>
             </figure>
 
             {/* card 3 */}
-            <figure className="group relative">
-              <div aria-hidden className="absolute -inset-[2px] rounded-2xl bg-gradient-to-br from-emerald-400/25 via-lime-400/25 to-emerald-400/25 opacity-0 group-hover:opacity-100 blur transition" />
-              <div className="relative rounded-2xl border bg-white/80 backdrop-blur p-6 shadow-sm transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:shadow-lg">
-                <div className="text-emerald-600 text-2xl">“</div>
-                <blockquote className="mt-2 text-gray-800 italic">
-                  Fasting can help protect us from aging, dementia, cancer, obesity, autoimmune problems—and more.
-                </blockquote>
-                <figcaption className="mt-4 text-sm font-semibold text-emerald-700">
-                  — Dr. Yoshinori Ohsumi
-                </figcaption>
+            <figure className="group relative h-full">
+              <div aria-hidden className="absolute -inset-[2px] rounded-2xl bg-gradient-to-br from-emerald-400/15 via-lime-400/15 to-emerald-400/15 opacity-0 group-hover:opacity-40 blur-sm transition" />
+              <div className="relative h-full rounded-2xl border border-emerald-100 bg-white/80 backdrop-blur p-6 shadow
+                        transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:shadow-md">
+                <div className="flex h-full flex-col">
+                  <div className="text-emerald-600 text-2xl">“</div>
+                  <blockquote className="mt-2 text-gray-800 italic">
+                    Fasting can help protect us from aging, dementia, cancer, obesity, autoimmune problems—and more.
+                  </blockquote>
+                  <figcaption className="mt-auto pt-4 text-sm font-semibold text-emerald-700">
+                    — Dr. Yoshinori Ohsumi
+                  </figcaption>
+                </div>
               </div>
             </figure>
           </div>
