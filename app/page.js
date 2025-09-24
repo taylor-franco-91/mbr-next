@@ -168,6 +168,9 @@ export default function HomePage() {
             </span>
           </h2>
           <div className="mx-auto mt-2 h-1 w-24 rounded-full bg-gradient-to-r from-emerald-400/60 to-lime-400/60" />
+          <p className="mt-3 uppercase tracking-wide text-xs md:text-sm text-slate-400/80">
+            Let’s be honest
+          </p>
 
           {/* gradient-framed comparison panel */}
           <div className="mx-auto mt-10 max-w-5xl p-[2px] rounded-3xl bg-gradient-to-r from-emerald-400/30 via-lime-400/30 to-emerald-400/30">
@@ -197,7 +200,7 @@ export default function HomePage() {
                 {/* Mind Body Reset */}
                 <div>
                   <h3 className="flex items-center gap-2 text-lg font-semibold text-emerald-300">
-                    <span className="text-emerald-400">✓</span> Mind Body Reset
+                    <span className="text-emerald-400">✓</span> Fasting
                   </h3>
                   <ul className="mt-3 space-y-3">
                     <li className="flex gap-2">
