@@ -229,6 +229,72 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section id="ebook" className="relative overflow-hidden py-24 px-6 bg-gradient-to-br from-emerald-100 to-white text-center">
+        {/* soft glow accents */}
+        <div aria-hidden className="pointer-events-none absolute -top-24 -right-24 w-96 h-96 rounded-full bg-emerald-300/30 blur-3xl" />
+        <div aria-hidden className="pointer-events-none absolute -bottom-28 -left-20 w-80 h-80 rounded-full bg-lime-300/30 blur-3xl" />
+
+        <div className="relative z-10 max-w-6xl mx-auto">
+          {/* header */}
+          <h2 className="text-4xl md:text-5xl font-extrabold text-emerald-700">
+            Your Blueprint to Transformation
+          </h2>
+          <div className="mx-auto mt-2 h-1 w-24 rounded-full bg-gradient-to-r from-emerald-400/60 to-lime-400/60" />
+
+          <p className="mt-4 text-[1.2rem] text-gray-700 leading-relaxed max-w-3xl mx-auto">
+            The <em>7-Day Mind-Body Reset</em> eBook is your personal guide to unlocking radiant health. Packed with 60 pages of step-by-step guidance, it’s like having me as your health coach, every step of the way.
+          </p>
+
+          {/* content */}
+          <div className="mt-10 grid md:grid-cols-2 items-center gap-10 text-left">
+            {/* framed product image */}
+            <div className="mx-auto w-full max-w-sm">
+              <div className="relative group">
+                <div aria-hidden className="absolute -inset-2 rounded-[28px] bg-gradient-to-br from-emerald-400/40 via-lime-400/40 to-emerald-400/40 blur-lg opacity-50 group-hover:opacity-70 transition" />
+                <div className="relative p-[2px] rounded-[24px] bg-gradient-to-br from-emerald-400/40 via-lime-400/40 to-emerald-400/40">
+                  <div className="rounded-[22px] bg-white/80 backdrop-blur-sm p-3">
+                    <img
+                      src="https://i.imgur.com/IKV1MGm.png"
+                      alt="7-Day Mind-Body Reset eBook cover"
+                      className="w-full h-auto rounded-2xl shadow-xl ring-1 ring-emerald-200 transition-transform duration-300 group-hover:scale-[1.02]"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              {/* trust chips */}
+              <ul className="mt-4 flex flex-wrap gap-2 justify-center md:justify-start text-sm">
+                <li className="px-3 py-1 rounded-full border bg-white/80 backdrop-blur text-emerald-800">60 pages</li>
+                <li className="px-3 py-1 rounded-full border bg-white/80 backdrop-blur text-emerald-800">Instant download</li>
+                <li className="px-3 py-1 rounded-full border bg-white/80 backdrop-blur text-emerald-800">30-day guarantee</li>
+              </ul>
+            </div>
+
+            {/* copy + CTA */}
+            <div>
+              <p className="text-gray-700 leading-relaxed text-[1.05rem]">
+                Unlock the secrets to radiant health and discover your path to lasting energy. Feel alive with this 7-day transformation!
+              </p>
+
+              <ul className="mt-6 space-y-3 text-emerald-900">
+                <li className="flex gap-2"><span className="text-emerald-600">✓</span> Step-by-step daily guidance</li>
+                <li className="flex gap-2"><span className="text-emerald-600">✓</span> Simple, supportive rituals to reduce cravings and boost clarity</li>
+                <li className="flex gap-2"><span className="text-emerald-600">✓</span> Built to fit busy lives—short actions, real momentum</li>
+              </ul>
+
+              <div className="mt-8">
+                <a
+                  href="#purchase"
+                  className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-base font-semibold bg-emerald-600 hover:bg-emerald-700 text-white shadow-lg hover:shadow-xl transition-transform hover:scale-[1.02] active:scale-[.98]"
+                >
+                  ✨ Claim your reset now
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="p-8 bg-white">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold text-center">Benefits</h2>
