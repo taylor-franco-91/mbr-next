@@ -534,7 +534,12 @@ export default function HomePage() {
               <div aria-hidden className="absolute -inset-[2px] rounded-2xl bg-gradient-to-br from-emerald-400/20 via-lime-400/20 to-emerald-400/20 opacity-0 group-hover:opacity-50 blur-sm transition" />
               <div className="relative h-full rounded-2xl border border-emerald-100 bg-white/80 backdrop-blur p-6 shadow transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:shadow-md">
                 <div className="flex h-full flex-col">
-                  <div className="text-3xl">🧠</div>
+                  <span
+                    aria-hidden
+                    className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-emerald-50 ring-1 ring-emerald-200 text-emerald-700 text-sm"
+                  >
+                    ✓
+                  </span>
                   <h3 className="mt-3 text-xl font-semibold text-emerald-700">Crystal-Clear Mind</h3>
                   <p className="mt-2 text-gray-700">
                     Break free from brain fog and unlock laser-sharp focus to conquer your goals.
@@ -549,7 +554,12 @@ export default function HomePage() {
               <div aria-hidden className="absolute -inset-[2px] rounded-2xl bg-gradient-to-br from-emerald-400/20 via-lime-400/20 to-emerald-400/20 opacity-0 group-hover:opacity-50 blur-sm transition" />
               <div className="relative h-full rounded-2xl border border-emerald-100 bg-white/80 backdrop-blur p-6 shadow transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:shadow-md">
                 <div className="flex h-full flex-col">
-                  <div className="text-3xl">⚡</div>
+                  <span
+                    aria-hidden
+                    className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-emerald-50 ring-1 ring-emerald-200 text-emerald-700 text-sm"
+                  >
+                    ✓
+                  </span>
                   <h3 className="mt-3 text-xl font-semibold text-emerald-700">Boundless Energy</h3>
                   <p className="mt-2 text-gray-700">
                     Feel a steady surge of vitality that powers you through your day with ease.
@@ -564,7 +574,12 @@ export default function HomePage() {
               <div aria-hidden className="absolute -inset-[2px] rounded-2xl bg-gradient-to-br from-emerald-400/20 via-lime-400/20 to-emerald-400/20 opacity-0 group-hover:opacity-50 blur-sm transition" />
               <div className="relative h-full rounded-2xl border border-emerald-100 bg-white/80 backdrop-blur p-6 shadow transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:shadow-md">
                 <div className="flex h-full flex-col">
-                  <div className="text-3xl">💪</div>
+                  <span
+                    aria-hidden
+                    className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-emerald-50 ring-1 ring-emerald-200 text-emerald-700 text-sm"
+                  >
+                    ✓
+                  </span>
                   <h3 className="mt-3 text-xl font-semibold text-emerald-700">Lighter Body</h3>
                   <p className="mt-2 text-gray-700">
                     Shed excess weight and bloating, revealing a leaner, stronger you.
@@ -579,7 +594,12 @@ export default function HomePage() {
               <div aria-hidden className="absolute -inset-[2px] rounded-2xl bg-gradient-to-br from-emerald-400/20 via-lime-400/20 to-emerald-400/20 opacity-0 group-hover:opacity-50 blur-sm transition" />
               <div className="relative h-full rounded-2xl border border-emerald-100 bg-white/80 backdrop-blur p-6 shadow transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:shadow-md">
                 <div className="flex h-full flex-col">
-                  <div className="text-3xl">🧘</div>
+                  <span
+                    aria-hidden
+                    className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-emerald-50 ring-1 ring-emerald-200 text-emerald-700 text-sm"
+                  >
+                    ✓
+                  </span>
                   <h3 className="mt-3 text-xl font-semibold text-emerald-700">Inner Peace</h3>
                   <p className="mt-2 text-gray-700">
                     Reconnect with your purpose and find calm amidst life’s chaos.
@@ -594,7 +614,12 @@ export default function HomePage() {
               <div aria-hidden className="absolute -inset-[2px] rounded-2xl bg-gradient-to-br from-emerald-400/20 via-lime-400/20 to-emerald-400/20 opacity-0 group-hover:opacity-50 blur-sm transition" />
               <div className="relative h-full rounded-2xl border border-emerald-100 bg-white/80 backdrop-blur p-6 shadow transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:shadow-md">
                 <div className="flex h-full flex-col">
-                  <div className="text-3xl">🌿</div>
+                  <span
+                    aria-hidden
+                    className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-emerald-50 ring-1 ring-emerald-200 text-emerald-700 text-sm"
+                  >
+                    ✓
+                  </span>
                   <h3 className="mt-3 text-xl font-semibold text-emerald-700">True Healing</h3>
                   <p className="mt-2 text-gray-700">
                     Begin to heal the body from within from many illnesses, ahces, pains, etc.
@@ -609,7 +634,12 @@ export default function HomePage() {
               <div aria-hidden className="absolute -inset-[2px] rounded-2xl bg-gradient-to-br from-emerald-400/20 via-lime-400/20 to-emerald-400/20 opacity-0 group-hover:opacity-50 blur-sm transition" />
               <div className="relative h-full rounded-2xl border border-emerald-100 bg-white/80 backdrop-blur p-6 shadow transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:shadow-md">
                 <div className="flex h-full flex-col">
-                  <div className="text-3xl">✨</div>
+                  <span
+                    aria-hidden
+                    className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-emerald-50 ring-1 ring-emerald-200 text-emerald-700 text-sm"
+                  >
+                    ✓
+                  </span>
                   <h3 className="mt-3 text-xl font-semibold text-emerald-700">New Lifestyle</h3>
                   <p className="mt-2 text-gray-700">
                     Build habits you love, and a body you’re proud of.
