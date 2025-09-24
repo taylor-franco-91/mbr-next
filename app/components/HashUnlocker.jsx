@@ -4,16 +4,23 @@ import { useEffect } from "react";
 export default function HashUnlocker() {
     useEffect(() => {
         if (typeof window === "undefined") return;
-        if (window.location.hash) {
-            // If someone landed/refreshed on a hash, unlock scroll
-            document.body.classList.remove("overflow-hidden");
 
-            // Optional: clear the hash so future refreshes start at top
+        let unlocked = false;
+        try {
+            unlocked = localStorage.getItem("mbr_unlocked") === "1";
+        } catch { }
+
+        // If you've clicked the CTA before (or landed on a hash), unlock scrolling
+        if (unlocked || window.location.hash) {
+            document.body.classList.remove("overflow-hidden");
+        }
+
+        // If a hash is present, clear it so future refreshes start clean
+        if (window.location.hash) {
             try {
                 const url = window.location.pathname + window.location.search;
                 window.history.replaceState(null, "", url);
             } catch { }
-            // (No need to scroll; browser already jumped to the section once.)
         }
     }, []);
 

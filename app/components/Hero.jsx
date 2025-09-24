@@ -9,14 +9,15 @@ export default function Hero({
     subtitleClassName = "",
 }) {
     function handleUnlockAndScroll(e) {
-        // don't change the URL (prevents sticking on #epiphany after refresh)
         e.preventDefault();
 
-        // unlock scrolling if it was locked on first load
-        const body = typeof document !== "undefined" ? document.body : null;
-        if (body) body.classList.remove("overflow-hidden");
+        // mark as unlocked for future loads
+        try { localStorage.setItem("mbr_unlocked", "1"); } catch { }
 
-        // smooth scroll to the epiphany section
+        // unlock now
+        document.body.classList.remove("overflow-hidden");
+
+        // smooth scroll to epiphany
         const el = document.getElementById("epiphany");
         if (el) el.scrollIntoView({ behavior: "smooth" });
     }
