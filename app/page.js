@@ -654,35 +654,126 @@ export default function HomePage() {
           <div className="mt-10">
             <a
               href="#purchase"
-              className="inline-flex items-center justify-center rounded-xl px-6 py-3 text-base font-semibold bg-emerald-600 hover:bg-emerald-700 text-white shadow-lg hover:shadow-xl transition-transform hover:scale-[1.02] active:scale-[.98]"
+              className="inline-flex items-center justify-center rounded-xl px-6 py-4 text-base font-semibold bg-emerald-600 hover:bg-emerald-700 text-white shadow-lg hover:shadow-xl transition-transform hover:scale-[1.02] active:scale-[.98]"
             >
               ✨ WOW! I Need These Benefits!
             </a>
           </div>
         </div>
       </section>
-
-      <section className="p-8 bg-white">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold text-center">Benefits</h2>
-          <div className="mt-6 grid gap-6 sm:grid-cols-2 md:grid-cols-3">
-            <FeatureCard
-              icon="⚡"
-              title="More Energy"
-              copy="Kickstart your day feeling lighter and more focused."
-            />
-            <FeatureCard
-              icon="🧠"
-              title="Mental Clarity"
-              copy="Fewer crashes, clearer thinking, better decisions."
-            />
-            <FeatureCard
-              icon="💪"
-              title="Confidence"
-              copy="Feel in control of your routine and results."
-            />
+      <section id="purchase" className="py-24 px-6 bg-white">
+        <div className="max-w-6xl mx-auto">
+          {/* header */}
+          <div className="text-center">
+            <div className="inline-flex items-center gap-2 rounded-full bg-emerald-100/80 text-emerald-800 px-3 py-1 text-xs font-semibold tracking-wide">
+              <span className="h-2 w-2 rounded-full bg-emerald-500" />
+              Instant access • One-time payment
+            </div>
+            <h2 className="mt-3 text-4xl md:text-5xl font-extrabold text-emerald-800">
+              Your Healing Starts Now
+            </h2>
+            <p className="mt-3 text-lg md:text-xl text-emerald-900">
+              In just 7 days, your body ignites with radiant health. Start today.
+            </p>
+            <div className="mx-auto mt-3 h-1 w-24 rounded-full bg-gradient-to-r from-emerald-400/60 to-lime-400/60" />
           </div>
-        </div>
+
+          {/* content */}
+          <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+            {/* left: product visual */}
+            <div className="relative">
+              {/* subtle gradient halo */}
+              <div aria-hidden className="absolute -inset-2 rounded-3xl bg-gradient-to-br from-emerald-300/10 via-lime-300/10 to-emerald-300/10 blur-md" />
+              <div className="relative rounded-3xl border border-emerald-100 bg-white/80 backdrop-blur p-6 shadow">
+                <img
+                  src="/ebook-cover.png"  /* put your cover in /public/ebook-cover.png */
+                  alt="7-Day Mind-Body Reset eBook preview"
+                  className="w-full h-auto rounded-2xl ring-1 ring-emerald-200 shadow-md"
+                />
+                <p className="mt-4 text-sm text-gray-600 italic text-center">
+                  Instant download • 60 pages of step-by-step guidance
+                </p>
+              </div>
+            </div>
+
+            {/* right: pricing + value stack */}
+            <div className="relative">
+              <div className="rounded-3xl border border-emerald-100 bg-white/90 backdrop-blur p-6 md:p-8 shadow">
+                {/* price band */}
+                <div className="flex items-end gap-3">
+                  <div className="text-3xl font-extrabold text-emerald-700">
+                    $26
+                  </div>
+                  <div className="text-sm text-gray-500">
+                    <span className="line-through">$53</span> • limited time
+                  </div>
+                </div>
+
+                {/* value bullets */}
+                <div className="mt-5 space-y-3">
+                  <div className="flex items-start gap-3">
+                    <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-emerald-50 ring-1 ring-emerald-200 text-emerald-700 text-xs">✓</span>
+                    <p className="text-gray-800">Daily fasting breakdowns: what to expect and how to thrive</p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-emerald-50 ring-1 ring-emerald-200 text-emerald-700 text-xs">✓</span>
+                    <p className="text-gray-800">Natural tips for hunger, energy & mindset (no gimmicks)</p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-emerald-50 ring-1 ring-emerald-200 text-emerald-700 text-xs">✓</span>
+                    <p className="text-gray-800">Simple supportive recipes to aid detox</p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-emerald-50 ring-1 ring-emerald-200 text-emerald-700 text-xs">✓</span>
+                    <p className="text-gray-800">Mindset affirmations to stay aligned and consistent</p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-emerald-50 ring-1 ring-emerald-200 text-emerald-700 text-xs">✓</span>
+                    <p className="text-gray-800"><span className="font-semibold">Bonus:</span>Save THOUSANDS on future health costs</p>
+                  </div>
+                </div>
+
+                {/* CTA */}
+                <div className="mt-6">
+                  <a
+                    href="https://buy.stripe.com/test_dRm6oH2L3egh2Hf6hQgrS00"
+                    className="inline-flex w-full items-center justify-center rounded-xl px-6 py-3 text-base font-semibold bg-emerald-600 hover:bg-emerald-700 text-white shadow-lg hover:shadow-xl transition-transform hover:scale-[1.02] active:scale-[.98]"
+                  >
+                    🔥 Buy Now & Change Your Life
+                  </a>
+                  <p className="mt-2 text-center text-xs text-gray-500">
+                    One-time purchase • Tax where applicable
+                  </p>
+                </div>
+
+                {/* guarantee */}
+                <div className="mt-6 rounded-xl border border-emerald-200 bg-emerald-50/60 p-4">
+                  <p className="text-sm text-emerald-900">
+                    <span className="font-semibold">30-Day Money-Back Guarantee.</span> If you don’t love it, email us and we’ll make it right.
+                  </p>
+                </div>
+
+                {/* trust row */}
+                <div className="mt-4 flex flex-wrap items-center justify-center gap-3 text-xs text-gray-600">
+                  <span className="inline-flex items-center gap-1 rounded-full bg-gray-50 px-3 py-1 ring-1 ring-gray-200">
+                    🔒 Secure checkout
+                  </span>
+                  <span className="inline-flex items-center gap-1 rounded-full bg-gray-50 px-3 py-1 ring-1 ring-gray-200">
+                    💳 Powered by Stripe
+                  </span>
+                  <span className="inline-flex items-center gap-1 rounded-full bg-gray-50 px-3 py-1 ring-1 ring-gray-200">
+                    ⚡ Instant delivery
+                  </span>
+                </div>
+
+                {/* help link */}
+                <p className="mt-4 text-center text-sm text-gray-600">
+                  Questions? <a href="#objections" className="text-emerald-700 hover:underline">See FAQ</a>
+                </p>
+              </div> {/* end pricing card */}
+            </div> {/* end right column */}
+          </div> {/* end grid */}
+        </div> {/* end container */}
       </section>
 
     </main>
