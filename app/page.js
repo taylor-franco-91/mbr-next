@@ -1,5 +1,7 @@
 import Hero from "./components/Hero.jsx";
 import FeatureCard from "./components/FeatureCard.jsx";
+import BeforeAfter from "./components/BeforeAfter.jsx";
+
 
 
 export default function HomePage() {
@@ -103,6 +105,47 @@ export default function HomePage() {
               </p>
             </article>
           </div>
+        </div>
+      </section>
+
+      <section id="transformation" className="py-24 px-6 bg-gradient-to-br from-white to-emerald-100 text-center shadow-inner">
+        <div className="max-w-5xl mx-auto">
+          {/* premium header */}
+          <div className="text-center">
+
+
+            <h2 className="mt-3 text-4xl md:text-5xl font-extrabold text-emerald-700">
+              My Transformation
+            </h2>
+
+            <div className="mx-auto mt-2 h-1 w-24 rounded-full bg-gradient-to-r from-emerald-400/60 to-lime-400/60" />
+
+            <p className="mt-3 text-gray-700 text-[1.05rem]">
+              Drag the handle to compare the before & after.
+            </p>
+          </div>
+
+
+          {/* Slider */}
+          <div className="mt-10">
+            <BeforeAfter
+              beforeSrc="https://i.imgur.com/XP7vCBO.jpeg"
+              afterSrc="https://i.imgur.com/bBcpHbI.jpeg"
+              beforeLabel="Before"
+              afterLabel="After"
+              initial={50}
+              className="w-full max-w-md md:max-w-lg mx-auto aspect-[3/4] rounded-3xl shadow-lg ring-1 ring-emerald-100"
+            />
+
+          </div>
+          <div className="mt-8 mx-auto max-w-3xl text-left rounded-2xl border-2 border-emerald-500 bg-white/80 backdrop-blur p-6 md:p-8 shadow-sm">
+
+            <p className="text-[1.05rem] leading-relaxed text-gray-800">
+              {/* paste your full paragraph here (the original story text) */}
+              This is what’s possible when you reset your mind and body. No, I’m not saying this 7-day fast alone will give you this kind of physique. But what I <em>am</em> saying is that this cleanse will put you on a path to a much more healthier, clearer, more confident version of yourself! Because without fasting I would have never achieved this kind of body that I have at 34. It’s your blueprint for transformation. That, I can promise!
+            </p>
+          </div>
+
         </div>
       </section>
 
