@@ -386,6 +386,17 @@ export default function HomePage() {
               {/* 7 */}
               <details className="group rounded-2xl border bg-white/80 backdrop-blur p-5 shadow-sm open:shadow-md transition">
                 <summary className="flex items-center justify-between cursor-pointer select-none">
+                  <span className="font-semibold text-emerald-700">“Do I need to workout During the reset?”</span>
+                  <span className="ml-4 grid h-7 w-7 place-items-center rounded-full bg-emerald-100 text-emerald-700 transition-transform duration-200 group-open:rotate-45">+</span>
+                </summary>
+                <div className="mt-3 text-gray-700 leading-relaxed">
+                  No, I actually advise you not to workout so you dont get light headed or sick. Also you dont want to trigger your digestive system to tell you " I need to eat" because if you workout during the fast your body is going to want food to replenish the calories you just burned, so NO!
+                </div>
+              </details>
+
+              {/* 8 */}
+              <details className="group rounded-2xl border bg-white/80 backdrop-blur p-5 shadow-sm open:shadow-md transition">
+                <summary className="flex items-center justify-between cursor-pointer select-none">
                   <span className="font-semibold text-emerald-700">“Can I do this if I’m pregnant?”</span>
                   <span className="ml-4 grid h-7 w-7 place-items-center rounded-full bg-emerald-100 text-emerald-700 transition-transform duration-200 group-open:rotate-45">+</span>
                 </summary>
@@ -397,7 +408,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
 
       <section className="p-8 bg-white">
         <div className="max-w-5xl mx-auto">
