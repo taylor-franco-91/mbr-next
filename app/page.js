@@ -483,6 +483,155 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section id="founder-note" className="py-16 px-6 bg-white text-center">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-emerald-700">
+            A Note from Taylor
+          </h2>
+          <div className="mx-auto mt-2 h-1 w-20 rounded-full bg-gradient-to-r from-emerald-400/60 to-lime-400/60" />
+
+          <figure className="mt-6 mx-auto max-w-2xl rounded-2xl border border-emerald-100 bg-white/80 backdrop-blur p-6 shadow">
+            <div className="flex flex-col md:flex-row md:items-start md:gap-5 text-left">
+              {/* Optional avatar — put a headshot at /public/taylor.jpg or remove this img */}
+              <img
+                src="/taylor.png"
+                alt="Taylor Franco"
+                className="h-16 w-16 rounded-full ring-1 ring-emerald-200 object-cover mb-4 md:mb-0"
+              />
+              <blockquote className="text-gray-800 italic leading-relaxed">
+                “Fasting completely changed my life and the connection I have between mind and body.
+                It taught me to eat for nourishment, not habit. This reset is the blueprint I wish
+                I had years ago.”
+              </blockquote>
+            </div>
+            <figcaption className="mt-4 text-sm font-semibold text-emerald-700 text-right">
+              — Taylor Franco
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section id="benefits" className="relative overflow-hidden py-24 px-6 bg-gradient-to-br from-lime-50 to-emerald-100 text-center">
+        <div className="max-w-6xl mx-auto">
+          {/* header */}
+          <div className="text-center">
+            <div className="inline-flex items-center gap-2 rounded-full bg-emerald-100/80 text-emerald-800 px-3 py-1 text-xs font-semibold tracking-wide">
+              <span className="h-2 w-2 rounded-full bg-emerald-500" />
+              Big wins in 7 days
+            </div>
+            <h2 className="mt-3 text-4xl md:text-5xl font-extrabold text-emerald-700">
+              What You’ll Gain in Just 7 Days
+            </h2>
+            <div className="mx-auto mt-2 h-1 w-24 rounded-full bg-gradient-to-r from-emerald-400/60 to-lime-400/60" />
+            <p className="mt-4 text-gray-700 leading-relaxed max-w-3xl mx-auto">
+              This isn’t just a cleanse — it’s a catalyst for a new you.
+            </p>
+          </div>
+
+          {/* cards */}
+          <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6 text-left items-stretch">
+            {/* 1 */}
+            <article className="group relative h-full">
+              <div aria-hidden className="absolute -inset-[2px] rounded-2xl bg-gradient-to-br from-emerald-400/20 via-lime-400/20 to-emerald-400/20 opacity-0 group-hover:opacity-50 blur-sm transition" />
+              <div className="relative h-full rounded-2xl border border-emerald-100 bg-white/80 backdrop-blur p-6 shadow transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:shadow-md">
+                <div className="flex h-full flex-col">
+                  <div className="text-3xl">🧠</div>
+                  <h3 className="mt-3 text-xl font-semibold text-emerald-700">Crystal-Clear Mind</h3>
+                  <p className="mt-2 text-gray-700">
+                    Break free from brain fog and unlock laser-sharp focus to conquer your goals.
+                  </p>
+                  <div className="mt-auto" />
+                </div>
+              </div>
+            </article>
+
+            {/* 2 */}
+            <article className="group relative h-full">
+              <div aria-hidden className="absolute -inset-[2px] rounded-2xl bg-gradient-to-br from-emerald-400/20 via-lime-400/20 to-emerald-400/20 opacity-0 group-hover:opacity-50 blur-sm transition" />
+              <div className="relative h-full rounded-2xl border border-emerald-100 bg-white/80 backdrop-blur p-6 shadow transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:shadow-md">
+                <div className="flex h-full flex-col">
+                  <div className="text-3xl">⚡</div>
+                  <h3 className="mt-3 text-xl font-semibold text-emerald-700">Boundless Energy</h3>
+                  <p className="mt-2 text-gray-700">
+                    Feel a steady surge of vitality that powers you through your day with ease.
+                  </p>
+                  <div className="mt-auto" />
+                </div>
+              </div>
+            </article>
+
+            {/* 3 */}
+            <article className="group relative h-full">
+              <div aria-hidden className="absolute -inset-[2px] rounded-2xl bg-gradient-to-br from-emerald-400/20 via-lime-400/20 to-emerald-400/20 opacity-0 group-hover:opacity-50 blur-sm transition" />
+              <div className="relative h-full rounded-2xl border border-emerald-100 bg-white/80 backdrop-blur p-6 shadow transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:shadow-md">
+                <div className="flex h-full flex-col">
+                  <div className="text-3xl">💪</div>
+                  <h3 className="mt-3 text-xl font-semibold text-emerald-700">Lighter Body</h3>
+                  <p className="mt-2 text-gray-700">
+                    Shed excess weight and bloating, revealing a leaner, stronger you.
+                  </p>
+                  <div className="mt-auto" />
+                </div>
+              </div>
+            </article>
+
+            {/* 4 */}
+            <article className="group relative h-full">
+              <div aria-hidden className="absolute -inset-[2px] rounded-2xl bg-gradient-to-br from-emerald-400/20 via-lime-400/20 to-emerald-400/20 opacity-0 group-hover:opacity-50 blur-sm transition" />
+              <div className="relative h-full rounded-2xl border border-emerald-100 bg-white/80 backdrop-blur p-6 shadow transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:shadow-md">
+                <div className="flex h-full flex-col">
+                  <div className="text-3xl">🧘</div>
+                  <h3 className="mt-3 text-xl font-semibold text-emerald-700">Inner Peace</h3>
+                  <p className="mt-2 text-gray-700">
+                    Reconnect with your purpose and find calm amidst life’s chaos.
+                  </p>
+                  <div className="mt-auto" />
+                </div>
+              </div>
+            </article>
+
+            {/* 5 */}
+            <article className="group relative h-full">
+              <div aria-hidden className="absolute -inset-[2px] rounded-2xl bg-gradient-to-br from-emerald-400/20 via-lime-400/20 to-emerald-400/20 opacity-0 group-hover:opacity-50 blur-sm transition" />
+              <div className="relative h-full rounded-2xl border border-emerald-100 bg-white/80 backdrop-blur p-6 shadow transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:shadow-md">
+                <div className="flex h-full flex-col">
+                  <div className="text-3xl">🌿</div>
+                  <h3 className="mt-3 text-xl font-semibold text-emerald-700">True Healing</h3>
+                  <p className="mt-2 text-gray-700">
+                    Begin to heal the body from within from many illnesses, ahces, pains, etc.
+                  </p>
+                  <div className="mt-auto" />
+                </div>
+              </div>
+            </article>
+
+            {/* 6 */}
+            <article className="group relative h-full">
+              <div aria-hidden className="absolute -inset-[2px] rounded-2xl bg-gradient-to-br from-emerald-400/20 via-lime-400/20 to-emerald-400/20 opacity-0 group-hover:opacity-50 blur-sm transition" />
+              <div className="relative h-full rounded-2xl border border-emerald-100 bg-white/80 backdrop-blur p-6 shadow transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:shadow-md">
+                <div className="flex h-full flex-col">
+                  <div className="text-3xl">✨</div>
+                  <h3 className="mt-3 text-xl font-semibold text-emerald-700">New Lifestyle</h3>
+                  <p className="mt-2 text-gray-700">
+                    Build habits you love, and a body you’re proud of.
+                  </p>
+                  <div className="mt-auto" />
+                </div>
+              </div>
+            </article>
+          </div>
+
+          {/* CTA */}
+          <div className="mt-10">
+            <a
+              href="#purchase"
+              className="inline-flex items-center justify-center rounded-xl px-6 py-3 text-base font-semibold bg-emerald-600 hover:bg-emerald-700 text-white shadow-lg hover:shadow-xl transition-transform hover:scale-[1.02] active:scale-[.98]"
+            >
+              ✨ WOW! I Need These Benefits!
+            </a>
+          </div>
+        </div>
+      </section>
+
       <section className="p-8 bg-white">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold text-center">Benefits</h2>
