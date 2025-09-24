@@ -1,12 +1,13 @@
 import Hero from "./components/Hero.jsx";
 import FeatureCard from "./components/FeatureCard.jsx";
 import BeforeAfter from "./components/BeforeAfter.jsx";
-
-
+import HashUnlocker from "./components/HashUnlocker.jsx";
 
 export default function HomePage() {
   return (
     <main>
+      <HashUnlocker />
+
       <Hero
         title="New Beginnings: Your 7-Day Mind-Body Reset"
         subtitle="For A Radient Life"
