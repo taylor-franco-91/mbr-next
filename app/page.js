@@ -168,7 +168,7 @@ export default function HomePage() {
             </span>
           </h2>
           <div className="mx-auto mt-2 h-1 w-24 rounded-full bg-gradient-to-r from-emerald-400/60 to-lime-400/60" />
-          <p className="mt-3 uppercase tracking-wide text-xs md:text-sm text-slate-400/80">
+          <p className="mt-3 uppercase tracking-wide text-sm md:text-base text-slate-400/80">
             Let’s be honest
           </p>
 
@@ -205,7 +205,7 @@ export default function HomePage() {
                   <ul className="mt-3 space-y-3">
                     <li className="flex gap-2">
                       <span className="text-emerald-400">✓</span>
-                      Resets hormones and supports true healing.
+                      Burns Fat and Resets your Hormones.
                     </li>
                     <li className="flex gap-2">
                       <span className="text-emerald-400">✓</span>
@@ -213,7 +213,7 @@ export default function HomePage() {
                     </li>
                     <li className="flex gap-2">
                       <span className="text-emerald-400">✓</span>
-                      Works with your body’s natural repair cycle.
+                      Actives your bodies Natual Healing Process
                     </li>
                   </ul>
                 </div>
@@ -221,7 +221,7 @@ export default function HomePage() {
 
               {/* supporting line */}
               <p className="mt-8 text-sm md:text-base text-slate-300/90 text-center">
-                That’s why this 7-day reset works: it taps into what your body already does —
+                That’s why this 7-day reset works: it taps into what your body is built to do —
                 cleanse, repair, and renew.
               </p>
             </div>
