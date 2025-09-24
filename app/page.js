@@ -409,6 +409,71 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section id="testimonials" className="py-24 px-6 bg-gradient-to-br from-white to-emerald-50 text-center">
+        <div className="max-w-6xl mx-auto">
+          {/* header */}
+          <div className="text-center">
+            <div className="inline-flex items-center gap-2 rounded-full bg-emerald-100/80 text-emerald-800 px-3 py-1 text-xs font-semibold tracking-wide">
+              <span className="h-2 w-2 rounded-full bg-emerald-500" />
+              What people say
+            </div>
+            <h2 className="mt-3 text-4xl md:text-5xl font-extrabold text-emerald-700">
+              Lives Transformed by This Reset
+            </h2>
+            <div className="mx-auto mt-2 h-1 w-24 rounded-full bg-gradient-to-r from-emerald-400/60 to-lime-400/60" />
+            <p className="mt-4 text-gray-700 leading-relaxed max-w-3xl mx-auto">
+              Don’t just take my word for it. Hear from others who’ve experienced the power of fasting.
+            </p>
+          </div>
+
+          {/* cards */}
+          <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
+            {/* card 1 */}
+            <figure className="group relative">
+              {/* subtle gradient frame on hover */}
+              <div aria-hidden className="absolute -inset-[2px] rounded-2xl bg-gradient-to-br from-emerald-400/25 via-lime-400/25 to-emerald-400/25 opacity-0 group-hover:opacity-100 blur transition" />
+              <div className="relative rounded-2xl border bg-white/80 backdrop-blur p-6 shadow-sm transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:shadow-lg">
+                <div className="text-emerald-600 text-2xl">“</div>
+                <blockquote className="mt-2 text-gray-800 italic">
+                  Fasting is the key to living longer and healthier lives.
+                </blockquote>
+                <figcaption className="mt-4 text-sm font-semibold text-emerald-700">
+                  — Dr. Yoshinori Ohsumi, Nobel Prize Laureate
+                </figcaption>
+              </div>
+            </figure>
+
+            {/* card 2 */}
+            <figure className="group relative">
+              <div aria-hidden className="absolute -inset-[2px] rounded-2xl bg-gradient-to-br from-emerald-400/25 via-lime-400/25 to-emerald-400/25 opacity-0 group-hover:opacity-100 blur transition" />
+              <div className="relative rounded-2xl border bg-white/80 backdrop-blur p-6 shadow-sm transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:shadow-lg">
+                <div className="text-emerald-600 text-2xl">“</div>
+                <blockquote className="mt-2 text-gray-800 italic">
+                  And when you fast!
+                </blockquote>
+                <figcaption className="mt-4 text-sm font-semibold text-emerald-700">
+                  — Matthew 6
+                </figcaption>
+              </div>
+            </figure>
+
+            {/* card 3 */}
+            <figure className="group relative">
+              <div aria-hidden className="absolute -inset-[2px] rounded-2xl bg-gradient-to-br from-emerald-400/25 via-lime-400/25 to-emerald-400/25 opacity-0 group-hover:opacity-100 blur transition" />
+              <div className="relative rounded-2xl border bg-white/80 backdrop-blur p-6 shadow-sm transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:shadow-lg">
+                <div className="text-emerald-600 text-2xl">“</div>
+                <blockquote className="mt-2 text-gray-800 italic">
+                  Fasting can help protect us from aging, dementia, cancer, obesity, autoimmune problems—and more.
+                </blockquote>
+                <figcaption className="mt-4 text-sm font-semibold text-emerald-700">
+                  — Dr. Yoshinori Ohsumi
+                </figcaption>
+              </div>
+            </figure>
+          </div>
+        </div>
+      </section>
+
       <section className="p-8 bg-white">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold text-center">Benefits</h2>
