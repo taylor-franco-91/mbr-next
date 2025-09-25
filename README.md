@@ -18,15 +18,17 @@ https://mbr-next.vercel.app/
 - lucide-react (icons)
 - Deployed on Vercel
 
-## Run locally
-```bash
-npm install
-npm run dev
 
 ## Screenshots
-
 **Hero & above-the-fold**  
 ![Hero]()
 
 **Purchase section**  
 ![Purchase]()
+
+
+## Run locally
+```bash
+npm install
+npm run dev
+
