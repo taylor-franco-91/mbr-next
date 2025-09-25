@@ -21,7 +21,7 @@ https://mbr-next.vercel.app/
 
 ## Screenshots
 **Hero & above-the-fold**  
-![Hero]()
+![Hero](docs/hero.png)
 
 **Purchase section**  
 ![Purchase]()
