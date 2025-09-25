@@ -267,7 +267,7 @@ export default function HomePage() {
               <ul className="mt-4 flex flex-wrap gap-2 justify-center md:justify-start text-sm">
                 <li className="px-3 py-1 rounded-full border bg-white/80 backdrop-blur text-emerald-800">60 pages</li>
                 <li className="px-3 py-1 rounded-full border bg-white/80 backdrop-blur text-emerald-800">Instant download</li>
-                <li className="px-3 py-1 rounded-full border bg-white/80 backdrop-blur text-emerald-800">30-day guarantee</li>
+                <li className="px-3 py-1 rounded-full border bg-white/80 backdrop-blur text-emerald-800">Healing guarantee</li>
               </ul>
             </div>
 
@@ -514,10 +514,7 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto">
           {/* header */}
           <div className="text-center">
-            <div className="inline-flex items-center gap-2 rounded-full bg-emerald-100/80 text-emerald-800 px-3 py-1 text-xs font-semibold tracking-wide">
-              <span className="h-2 w-2 rounded-full bg-emerald-500" />
-              Big wins in 7 days
-            </div>
+
             <h2 className="mt-3 text-4xl md:text-5xl font-extrabold text-emerald-700">
               What You’ll Gain in Just 7 Days
             </h2>
@@ -738,13 +735,14 @@ export default function HomePage() {
                 {/* value headline (bridge to CTA) */}
                 <h3 className="mt-5 mb-2 text-base md:text-lg text-emerald-900 tracking-tight text-left">
                   <span className="font-extrabold text-emerald-800">Your one-time ticket to a healthier you</span>
-                  <span className="font-normal"> — pass this wisdom down for generations!</span>
+                  <span className="font-normal">, pass this wisdom down for generations!</span>
                 </h3>
 
                 <div className="mt-6">
                   <a
                     href="https://buy.stripe.com/test_dRm6oH2L3egh2Hf6hQgrS00"
-                    className="inline-flex w-full items-center justify-center rounded-xl px-6 py-3 text-base font-semibold bg-emerald-600 hover:bg-emerald-700 text-white shadow-lg hover:shadow-xl transition-transform hover:scale-[1.02] active:scale-[.98]"
+                    className="inline-flex w-full items-center justify-center rounded-xl px-6 py-3 text-base font-semibold bg-amber-500 hover:bg-amber-600 text-white shadow-md hover:shadow-lg ring-1 ring-amber-300/40 focus:outline-none focus:ring-4 focus:ring-amber-200 transition-transform hover:scale-[1.02] active:scale-[.98]"
+
                   >
                     🔥 Buy Now & Change Your Life
                   </a>
@@ -756,7 +754,7 @@ export default function HomePage() {
                 {/* guarantee */}
                 <div className="mt-6 rounded-xl border border-emerald-200 bg-emerald-50/60 p-4">
                   <p className="text-sm text-emerald-900">
-                    <span className="font-semibold">Get Ready For An Amazing Transformation!</span> 100% Healing Guarantee! Just Follow The Blueprint
+                    <span className="font-semibold">Get Ready For An Amazing Transformation!</span> 100% Healing Guaranteed! Just Follow The Blueprint
                   </p>
                 </div>
 
