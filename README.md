@@ -27,7 +27,8 @@ https://mbr-next.vercel.app/
 ![Purchase](docs/purchase.png)
 
 
-## Contact / Hire Me
+## Contact
+_Opened to Frontend/AI Prompt Engineering Roles._
 - **LinkedIn:** https://www.linkedin.com/in/taylor-franco-982518140/
 - **Email:** taylor.franco91@gmail.com
 - **Portfolio:** https://taylor-franco-portfolio.netlify.app/
