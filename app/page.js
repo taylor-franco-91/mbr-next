@@ -741,11 +741,27 @@ export default function HomePage() {
                 <div className="mt-6">
                   <a
                     href="https://buy.stripe.com/test_dRm6oH2L3egh2Hf6hQgrS00"
-                    className="inline-flex w-full items-center justify-center rounded-xl px-6 py-3 text-base font-semibold bg-amber-500 hover:bg-amber-600 text-white shadow-md hover:shadow-lg ring-1 ring-amber-300/40 focus:outline-none focus:ring-4 focus:ring-amber-200 transition-transform hover:scale-[1.02] active:scale-[.98]"
-
+                    className="inline-flex w-full items-center justify-center gap-2 rounded-xl px-6 py-3 text-base font-semibold
+             bg-amber-500 hover:bg-amber-600 text-white shadow-md hover:shadow-lg
+             ring-1 ring-amber-300/40 focus:outline-none focus:ring-4 focus:ring-amber-200
+             transition-transform hover:scale-[1.02] active:scale-[.98]"
                   >
-                    🔥 Buy Now & Change Your Life
+                    <span>Buy Now &amp; Change Your Life</span>
+                    <svg
+                      aria-hidden="true"
+                      className="h-5 w-5 animate-[arrow-wiggle_1.1s_ease-in-out_infinite] motion-reduce:animate-none"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12h14" />
+                      <path d="M13 5l7 7-7 7" />
+                    </svg>
                   </a>
+
                   <p className="mt-2 text-center text-xs text-gray-500">
                     One-time purchase • Tax where applicable
                   </p>
