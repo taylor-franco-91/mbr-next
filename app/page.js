@@ -2,6 +2,8 @@ import Hero from "./components/Hero.jsx";
 import FeatureCard from "./components/FeatureCard.jsx";
 import BeforeAfter from "./components/BeforeAfter.jsx";
 import HashUnlocker from "./components/HashUnlocker.jsx";
+import { Leaf, Clock, ShieldCheck } from "lucide-react";
+
 
 export default function HomePage() {
   return (
@@ -71,7 +73,9 @@ export default function HomePage() {
           <div className="mt-10 grid gap-6 md:grid-cols-3">
             {/* Card 1 */}
             <article className="rounded-2xl border bg-white/80 backdrop-blur p-6 shadow-sm text-left  transition-transform duration-200 hover:-translate-y-0.5 hover:shadow-md">
-              <div className="text-3xl">🌿</div>
+              <div className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-emerald-50 ring-1 ring-emerald-200">
+                <Leaf className="h-5 w-5 text-emerald-700" strokeWidth={2} aria-hidden />
+              </div>
               <h3 className="mt-3 text-xl font-semibold text-emerald-700">Lived Experience</h3>
               <p className="mt-2 text-gray-700 leading-relaxed text-[1.05rem]">
                 I’ve walked the path of cleansing, healing, and full transformation physically,
@@ -84,7 +88,11 @@ export default function HomePage() {
             {/* Card 2 */}
             <article className="rounded-2xl border bg-white/80 backdrop-blur p-6 shadow-sm text-left transition hover:-translate-y-0.5 hover:shadow-md
 ">
-              <div className="text-3xl">⏳</div>
+              <div className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-emerald-50 ring-1 ring-emerald-200">
+                <Clock className="h-5 w-5 text-emerald-700" strokeWidth={2} aria-hidden />
+                {/* or <Timer ... /> if you prefer */}
+              </div>
+
               <h3 className="mt-3 text-xl font-semibold text-emerald-700">Why Fasting</h3>
               <p className="mt-2 text-gray-700 leading-relaxed text-[1.05rem]">
                 Fasting changed my life. It’s not just about dropping weight, it’s about healing
@@ -98,7 +106,10 @@ export default function HomePage() {
             {/* Card 3 */}
             <article className="rounded-2xl border bg-white/80 backdrop-blur p-6 shadow-sm text-left transition hover:-translate-y-0.5 hover:shadow-md
 ">
-              <div className="text-3xl">💪</div>
+              <div className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-emerald-50 ring-1 ring-emerald-200">
+                <ShieldCheck className="h-5 w-5 text-emerald-700" strokeWidth={2} aria-hidden />
+                {/* or <Dumbbell ... /> for a literal strength icon */}
+              </div>
               <h3 className="mt-3 text-xl font-semibold text-emerald-700">Worth the Effort</h3>
               <p className="mt-2 text-gray-700 leading-relaxed text-[1.05rem]">
                 It’s not easy, but it’s absolutely worth it. And I’m here to guide you through it
@@ -520,7 +531,7 @@ export default function HomePage() {
             </h2>
             <div className="mx-auto mt-2 h-1 w-24 rounded-full bg-gradient-to-r from-emerald-400/60 to-lime-400/60" />
             <p className="mt-4 text-gray-700 leading-relaxed max-w-3xl mx-auto">
-              This isn’t just a cleanse — it’s a catalyst for a new you.
+              This isn’t just a cleanse, it’s a catalyst for a new you.
             </p>
           </div>
 
@@ -653,7 +664,7 @@ export default function HomePage() {
               href="#purchase"
               className="inline-flex items-center justify-center rounded-xl px-6 py-4 text-base font-semibold bg-emerald-600 hover:bg-emerald-700 text-white shadow-lg hover:shadow-xl transition-transform hover:scale-[1.02] active:scale-[.98]"
             >
-              ✨ WOW! I Need These Benefits!
+              ✨ WOW! I NEED THIS!
             </a>
           </div>
         </div>
@@ -741,7 +752,7 @@ export default function HomePage() {
                 <div className="mt-6">
                   <a
                     href="https://buy.stripe.com/test_dRm6oH2L3egh2Hf6hQgrS00"
-                    className="inline-flex w-full items-center justify-center gap-2 rounded-xl px-6 py-3 text-base font-semibold
+                    className="inline-flex w-full items-center justify-center gap-2 rounded-xl px-6 py-4 text-base font-semibold
              bg-amber-500 hover:bg-amber-600 text-white shadow-md hover:shadow-lg
              ring-1 ring-amber-300/40 focus:outline-none focus:ring-4 focus:ring-amber-200
              transition-transform hover:scale-[1.02] active:scale-[.98]"
