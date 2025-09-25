@@ -27,8 +27,12 @@ https://mbr-next.vercel.app/
 ![Purchase](docs/purchase.png)
 
 
+## Contact / Hire Me
+- **LinkedIn:** https://www.linkedin.com/in/taylor-franco-982518140/
+- **Email:** taylor.franco91@gmail.com
+- **Portfolio:** https://taylor-franco-portfolio.netlify.app/
+
 ## Run locally
 ```bash
 npm install
 npm run dev
-
