@@ -1,6 +1,6 @@
 # Mind Body Reset — Next.js
 
-A high-converting landing funnel rebuilt with **React + Next.js** and **Tailwind CSS**.
+A high-converting website rebuilt with **React + Next.js** and **Tailwind CSS**.
 
 ## Live Demo
 https://mbr-next.vercel.app/
