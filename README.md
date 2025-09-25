@@ -24,7 +24,7 @@ https://mbr-next.vercel.app/
 ![Hero](docs/hero.png)
 
 **Purchase section**  
-![Purchase]()
+![Purchase](docs/purchase.png)
 
 
 ## Run locally
