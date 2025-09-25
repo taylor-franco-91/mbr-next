@@ -28,7 +28,7 @@ https://mbr-next.vercel.app/
 
 
 ## Contact
-_Opened to Frontend/AI Prompt Engineering Roles._
+_Open to Frontend roles • also experienced in AI Prompt Engineering (prompt design, UX copy, AI-assisted workflows)._
 - **LinkedIn:** https://www.linkedin.com/in/taylor-franco-982518140/
 - **Email:** taylor.franco91@gmail.com
 - **Portfolio:** https://taylor-franco-portfolio.netlify.app/
