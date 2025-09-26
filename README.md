@@ -1,4 +1,10 @@
 # Mind Body Reset — Next.js
+![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=nextdotjs)
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-38BDF8?logo=tailwindcss&logoColor=white)
+![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-black?logo=vercel)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
 
 A high-converting website rebuilt with **React + Next.js** and **Tailwind CSS**.
 
