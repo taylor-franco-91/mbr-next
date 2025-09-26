@@ -4,6 +4,7 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-38BDF8?logo=tailwindcss&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-black?logo=vercel)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+[![Live Site](https://img.shields.io/website?url=https%3A%2F%2Fmbr-next.vercel.app&label=Live%20Site)](https://mbr-next.vercel.app/)
 
 
 A high-converting website rebuilt with **React + Next.js** and **Tailwind CSS**.
