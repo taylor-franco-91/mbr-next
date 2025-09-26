@@ -32,6 +32,26 @@ https://mbr-next.vercel.app/
 **Purchase section**  
 ![Purchase](docs/purchase.png)
 
+## Project Structure
+app/
+  components/
+    BeforeAfter.jsx
+    FeatureCard.jsx
+    Footer.jsx
+    HashUnlocker.jsx
+    Hero.jsx
+  layout.js
+  page.js
+public/
+  epiphany-bg.png
+  next.svg
+  vercel.svg
+  (images, icons, etc.)
+package.json
+next.config.mjs
+postcss.config.mjs
+tailwind.config.js (if present)
+
 
 ## Contact
 _Open to Frontend roles • also experienced in AI Prompt Engineering (prompt design, UX copy, AI-assisted workflows) and QA (manual + Python/Selenium, test planning, accessibility checks)._
