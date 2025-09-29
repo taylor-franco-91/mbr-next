@@ -20,10 +20,10 @@ https://mbr-next.vercel.app/
 - Accessible, responsive, mobile-first
 
 ## Why this project matters
-This was my first full Next.js + React build. I wanted to move beyond plain HTML/CSS/JavaScript 
-and deliver a production-ready funnel. It taught me how to structure components, apply accessibility 
-best practices, and troubleshoot real deployment issues (like Vercel build configs and ESLint fixes). 
-Most importantly, it showed me how to turn design ideas into a polished, maintainable project.
+This project marks my leap from static HTML/CSS/JavaScript builds into modern, production-ready development with React and Next.js. 
+It challenged me to think in components, prioritize accessibility, and deliver a responsive, polished UI that feels premium. 
+Along the way, I solved real-world deployment issues with Vercel and ESLint, proving I can handle the workflows engineers deal with every day. 
+More than a demo, this project demonstrates that I can take an idea from concept to launch and deliver code that’s reliable, maintainable, and a product that’s ready for users.
 
 ## Tech
 - Next.js, React
