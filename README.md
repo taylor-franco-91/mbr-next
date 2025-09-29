@@ -19,6 +19,12 @@ https://mbr-next.vercel.app/
 - Premium purchase section (value stack, guarantee, trust badges)
 - Accessible, responsive, mobile-first
 
+## Why this project matters
+This was my first full Next.js + React build. I wanted to move beyond plain HTML/CSS/JavaScript 
+and deliver a production-ready funnel. It taught me how to structure components, apply accessibility 
+best practices, and troubleshoot real deployment issues (like Vercel build configs and ESLint fixes). 
+Most importantly, it showed me how to turn design ideas into a polished, maintainable project.
+
 ## Tech
 - Next.js, React
 - Tailwind CSS
