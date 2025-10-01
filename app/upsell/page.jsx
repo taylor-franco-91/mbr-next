@@ -93,14 +93,17 @@ export default function UpsellPage() {
                 />
             </div>
 
-            {/* headline */}
-            <h2 className="text-4xl md:text-5xl font-extrabold mb-4">
-                <span className="text-red-600">WAIT!</span>{" "}
-                <span className="text-emerald-700">Your Order Isn’t Complete Yet…</span>
+            {/* headline — high intent */}
+            <h2 className="text-4xl md:text-5xl font-extrabold mb-2">
+                <span className="text-red-600">Want real help?</span>{" "}
+                <span className="text-emerald-700">Grab your FREE 1:1 Strategy Call.</span>
             </h2>
 
-            {/* subhead */}
-            <h3 className="text-2xl font-bold text-emerald-700 mb-6">Watch Now</h3>
+            {/* subhead — assertive next step */}
+            <h3 className="text-lg md:text-xl text-emerald-800 font-semibold mb-6">
+                Watch the video below if you’re serious about results, this is your next step.
+            </h3>
+
 
             {/* video created by YT API */}
             <div className="max-w-3xl mx-auto mb-8 rounded-xl overflow-hidden shadow-xl">
@@ -114,7 +117,7 @@ export default function UpsellPage() {
                     } max-w-3xl mx-auto bg-white p-6 rounded-2xl shadow-2xl border border-emerald-200`}
             >
                 <p className="text-lg text-gray-800 mb-4">
-                    You’re on the brink of elite health—don’t stop now! Accelerate your transformation
+                    You’re on the brink of elite health, don’t stop now! Accelerate your transformation
                     in the next 12 weeks with personalized 1:1 coaching tailored just for you.
                 </p>
                 <p className="text-emerald-700 font-semibold mb-6">
